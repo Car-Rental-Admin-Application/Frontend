@@ -1,0 +1,55 @@
+<div class="main-container">
+  <!-- Barre d'actions -->
+  <div class="action-bar">
+    <mat-form-field appearance="outline" class="search-box">
+      <mat-label>Rechercher une voiture</mat-label>
+      <input matInput placeholder="Rechercher une voiture...">
+    </mat-form-field>
+
+    <button mat-stroked-button class="action-btn filter-btn">Filtrer</button>
+    <button mat-stroked-button color="warn" class="action-btn delete-btn">Supprimer multiple</button>
+    <button mat-raised-button color="primary" class="action-btn add-btn">Ajouter voiture +</button>
+  </div>
+
+  <!-- Grille de voitures -->
+  <div class="cars-grid">
+    <!-- Carte 1 -->
+    <mat-card class="car-card">
+      <img mat-card-image src="assets/toyota.jpg" alt="Toyota">
+      <mat-card-content class="car-details">
+        <h3 class="car-title">Toyota Corolla 2023</h3>
+        <div class="car-price">236.000 DH</div>
+        <div class="car-info">
+          <span>Automatique</span>
+          <span>25.000 km</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Carte 2 -->
+    <mat-card class="car-card">
+      <img mat-card-image src="assets/mercedess.jpg" alt="Mercedes">
+      <mat-card-content class="car-details">
+        <h3 class="car-title">Mercedes Classe A</h3>
+        <div class="car-price">320.000 DH</div>
+        <div class="car-info">
+          <span>Automatique</span>
+          <span>15.000 km</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Carte 3 -->
+    <mat-card class="car-card">
+      <img mat-card-image src="assets/BMW.jpg" alt="BMW">
+      <mat-card-content class="car-details">
+        <h3 class="car-title">BMW Série 3</h3>
+        <div class="car-price">280.000 DH</div>
+        <div class="car-info">
+          <span>Manuelle</span>
+          <span>40.000 km</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
