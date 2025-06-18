@@ -29,15 +29,16 @@ This will compile your project and store the build artifacts in the `dist/` dire
 
 L'application GestionVoiture est conçue pour fournir les fonctionnalités clés
 suivantes (basées sur la structure des modules) :
-# Authentification des Utilisateurs : Permet aux utilisateurs de se connecter à
-l'application via une page dédiée.
-# Tableau de Bord (Dashboard) : Offre une vue d'ensemble des informations
-importantes et des statistiques relatives à la gestion des véhicules.
-# Gestion des Véhicules (Cars) : Module complet pour l'ajout, la modification, la
-suppression et la consultation des détails des véhicules.
-# Page d'Accueil (Home) : La page d'atterrissage de l'application.
-# Journaux d'Activités (Logs) : Permet de suivre les différentes opérations et
-événements au sein de l'application.
+# Authentification des Utilisateurs : 
+Permet aux utilisateurs de se connecter à l'application via une page dédiée.
+# Tableau de Bord (Dashboard) : 
+Offre une vue d'ensemble des informations importantes et des statistiques relatives à la gestion des véhicules.
+# Gestion des Véhicules (Cars) : 
+Module complet pour l'ajout, la modification, la suppression et la consultation des détails des véhicules.
+# Page d'Accueil (Home) : 
+La page d'atterrissage de l'application.
+# Journaux d'Activités (Logs) : 
+Permet de suivre les différentes opérations et événements au sein de l'application.
 
 ## Installation
 
