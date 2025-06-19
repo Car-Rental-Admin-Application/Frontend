@@ -54,7 +54,8 @@ Fonctionnalités : <br>
 L'interface est divisée en deux sections principales : une section visuelle sur la gauche présentant une image pertinente (ici, une voiture de sport), et une section de formulaire sur la droite. Cette disposition améliore l'esthétique et l'expérience utilisateur.
 
 <br> 
-       2.Interface du Tableau de Bord (Dashboard). <br>
+       2.Interface du Tableau de Bord (Dashboard). 
+<br>
 Le tableau de bord est le centre de commande de l'application, offrant une vue d'ensemble rapide et des statistiques clés sur la gestion des véhicules. Il est conçu pour fournir des informations essentielles en un coup d'œil, permettant aux utilisateurs de surveiller l'état général de leur flotte.
 
 ![image](https://github.com/user-attachments/assets/e0061275-b0e0-4a38-9e3e-125ead6a74b7)
@@ -65,10 +66,51 @@ Navigation principale : En haut de la page, des liens de navigation permettent d
 • Total Sold Last Month : Le nombre total de véhicules vendus ou loués le mois précédent (ici, 74).<br>
 • Visualisation des données : Un graphique en anneau (donut chart) présente la répartition des véhicules par marque, par exemple, 60% de Toyota et 40% de Chevrolet, offrant une compréhension visuelle rapide de la composition de la flotte.<br>
 • Aperçu visuel : Une section dédiée affiche une image représentative d'un véhicule, ajoutant un élément visuel agréable au tableau de bord.<br>
+<br>
 <b>Design</b> : <br>
 L'interface du tableau de bord est organisée en une grille de cartes, chacune dédiée à une information ou une statistique spécifique. Cette disposition modulaire rend l'information facile à digérer et l'interface utilisateur claire et fonctionnelle.
 
+<br> 
+       3. Interface de Gestion des Véhicules (Cars)
+<br>
+L'interface "Cars" est dédiée à la gestion détaillée du parc automobile. Elle permet aux utilisateurs de visualiser, rechercher, filtrer et gérer les informations relatives à chaque véhicule.
 
+![image](https://github.com/user-attachments/assets/e4f4c599-b63b-4566-9ecb-7c7208d93683)
+
+Fonctionnalités :<br>
+
+•Recherche de Véhicules : Un champ de recherche permet de trouver rapidement des véhicules spécifiques en fonction de critères (par exemple, marque, modèle, année).<br>
+•Filtrage : Un bouton "Filtrer" suggère la présence d'options de filtrage avancées pour affiner la liste des véhicules affichés.<br>
+•Suppression Multiple : Un bouton "Supprimer multiple" indique la possibilité de sélectionner plusieurs véhicules pour une suppression groupée, améliorant l'efficacité de la gestion.<br>
+•Ajout de Nouveau Véhicule : Le bouton "Ajouter voiture +" permet d'initier le processus d'ajout d'un nouveau véhicule à la base de données.<br>
+•Affichage des Véhicules : Les véhicules sont présentés sous forme de cartes individuelles, chacune affichant des informations clés :<br>
+•Image du Véhicule : Une photo représentative du modèle.<br>
+•Nom/Modèle : Le nom et l'année du modèle (ex: Toyota Corolla 2023, Mercedes Classe A, BMW Série 3).<br>
+•Prix : Le prix du véhicule (ex: 236.000 DH).<br>
+•Type de Transmission : Indique si le véhicule est automatique ou manuel.<br>
+•Kilométrage : Le kilométrage actuel du véhicule.<br>
+<br>
+Design :
+<br>
+L'interface est conçue pour être visuellement attrayante et facile à naviguer. La présentation en grille des cartes de véhicules offre une vue claire et organisée, facilitant la consultation et la gestion des informations.
+
+<br> 
+      4. Interface des Journaux (Logs).<br>
+<br>
+L'interface "Logs" est essentielle pour le suivi et l'audit des activités au sein de l'application. Elle permet de consulter un historique des événements, des actions des utilisateurs ou des modifications apportées aux données.
+
+![image](https://github.com/user-attachments/assets/b6a66dd4-eeb7-409a-84a1-3ea2f51b688b)
+
+Fonctionnalités :<br>
+
+•Affichage des Journaux : Présente une liste chronologique des événements enregistrés par l'application.<br>
+•Détails des Événements : Chaque entrée de journal devrait idéalement inclure des informations telles que la date et l'heure de l'événement, l'utilisateur concerné, le type d'action effectuée et les détails pertinents de cette action.<br>
+•Recherche et Filtrage : Bien que non visible sur l'image, il est probable que cette interface inclue des fonctionnalités de recherche et de filtrage pour permettre aux utilisateurs de trouver des événements spécifiques (par date, type d'action, utilisateur, etc.).<br>
+
+<br>
+<b> Design : </b>
+<br>
+L'interface des journaux est généralement conçue pour être claire et fonctionnelle, avec une présentation tabulaire ou listée des données pour faciliter la lecture et l'analyse des informations. L'accent est mis sur la lisibilité et l'organisation des données pour un suivi efficace.
 
 ## Installation
 
