@@ -23,7 +23,7 @@ facilitant la gestion des événements asynchrones.
 - Zone.js : Une bibliothèque qui fournit un contexte d'exécution persistant à travers
 les tâches asynchrones.
 
-## Fonctionnalités
+## Fonctionnalités 
 
 L'application GestionVoiture est conçue pour fournir les fonctionnalités clés
 suivantes (basées sur la structure des modules) :
@@ -37,6 +37,38 @@ Module complet pour l'ajout, la modification, la suppression et la consultation 
 La page d'atterrissage de l'application.
 # Journaux d'Activités (Logs) : 
 Permet de suivre les différentes opérations et événements au sein de l'application.
+
+## Interfaces de l'Application
+Cette section décrit les différentes interfaces utilisateur de l'application GestionVoiture, en mettant en évidence leurs fonctionnalités et leur rôle.
+<br>
+  1. Interface d'Authentification 
+      
+L'interface d'authentification est la première page que les utilisateurs rencontrent. Elle est conçue pour permettre aux utilisateurs de se connecter au système en toute sécurité. Elle présente un design épuré et moderne, intégrant des éléments visuels attrayants.
+![image](https://github.com/user-attachments/assets/3190c5e1-e04e-4136-abb9-fea090071046)
+Fonctionnalités : <br>
+• Champs de saisie sécurisés : L'utilisateur doit entrer son nom d'utilisateur et son mot de passe dans les champs dédiés.<br>
+• Option "Mot de passe oublié ?" : Un lien est disponible pour les utilisateurs ayant oublié leur mot de passe, les redirigeant vers un processus de récupération (fonctionnalité à implémenter ou à détailler si existante).<br>
+• Bouton de soumission : Un bouton "SUBMIT" permet de valider les informations d'identification et de tenter la connexion.
+
+<b>Design</b> :
+L'interface est divisée en deux sections principales : une section visuelle sur la gauche présentant une image pertinente (ici, une voiture de sport), et une section de formulaire sur la droite. Cette disposition améliore l'esthétique et l'expérience utilisateur.
+
+<br> 
+       2.Interface du Tableau de Bord (Dashboard). <br>
+Le tableau de bord est le centre de commande de l'application, offrant une vue d'ensemble rapide et des statistiques clés sur la gestion des véhicules. Il est conçu pour fournir des informations essentielles en un coup d'œil, permettant aux utilisateurs de surveiller l'état général de leur flotte.
+
+![image](https://github.com/user-attachments/assets/e0061275-b0e0-4a38-9e3e-125ead6a74b7)
+Fonctionnalités : <br>
+Navigation principale : En haut de la page, des liens de navigation permettent d'accéder facilement aux sections "Dashboard", "Cars" (Véhicules) et "Logs" (Journaux).<br>
+• Statistiques clés : Des cartes d'information affichent des métriques importantes :<br>
+• Total Cars : Le nombre total de véhicules gérés dans le système (ici, 127).<br>
+• Total Sold Last Month : Le nombre total de véhicules vendus ou loués le mois précédent (ici, 74).<br>
+• Visualisation des données : Un graphique en anneau (donut chart) présente la répartition des véhicules par marque, par exemple, 60% de Toyota et 40% de Chevrolet, offrant une compréhension visuelle rapide de la composition de la flotte.<br>
+• Aperçu visuel : Une section dédiée affiche une image représentative d'un véhicule, ajoutant un élément visuel agréable au tableau de bord.<br>
+<b>Design</b> : <br>
+L'interface du tableau de bord est organisée en une grille de cartes, chacune dédiée à une information ou une statistique spécifique. Cette disposition modulaire rend l'information facile à digérer et l'interface utilisateur claire et fonctionnelle.
+
+
 
 ## Installation
 
