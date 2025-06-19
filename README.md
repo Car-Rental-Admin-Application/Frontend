@@ -23,8 +23,6 @@ facilitant la gestion des événements asynchrones.
 - Zone.js : Une bibliothèque qui fournit un contexte d'exécution persistant à travers
 les tâches asynchrones.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
 ## Fonctionnalités
 
 L'application GestionVoiture est conçue pour fournir les fonctionnalités clés
@@ -64,24 +62,26 @@ navigateur. Les modifications apportées au code seront automatiquement recharg�
 
 ## Structure du Projet
 Voici une vue simplifiée de la structure des dossiers clés du projet :
+
+<pre>
 GestionVoiture/
 ├── src/
-│ ├── app/
-│ │ ├── app.component.ts
-│ │ ├── app.component.html
-│ │ ├── app.component.css
-│ │ ├── app.config.ts
-│ │ ├── app.routes.ts
-│ │ └── pages/
-│ │ ├── cars/
-│ │ ├── dashboard/
-│ │ ├── home/
-│ │ ├── login/
-│ │ └── logs/
-│ ├── assets/
-│ ├── index.html
-│ ├── main.ts
-│ └── styles.css
+│   ├── app/
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.css
+│   │   ├── app.config.ts
+│   │   ├── app.routes.ts
+│   │   └── pages/
+│   │       ├── cars/
+│   │       ├── dashboard/
+│   │       ├── home/
+│   │       ├── login/
+│   │       └── logs/
+│   ├── assets/
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
 ├── angular.json
 ├── package.json
 ├── package-lock.json
@@ -89,6 +89,8 @@ GestionVoiture/
 ├── tsconfig.app.json
 ├── tsconfig.json
 └── tsconfig.spec.json
+</pre>
+
 + src/ : Contient le code source de l'application.
 + src/app/ : Contient les modules et composants Angular.
 + src/app/pages/ : Organise les différentes vues/pages de l'application.
@@ -96,5 +98,3 @@ GestionVoiture/
 + package.json : Liste les dépendances du projet et les scripts de construction.
 ## Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
-Ce README a été généré par Yousra Msaouri Charroud
