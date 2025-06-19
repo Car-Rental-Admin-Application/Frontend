@@ -39,8 +39,8 @@ Fonctionnalités : <br>
 L'interface est divisée en deux sections principales : une section visuelle sur la gauche présentant une image pertinente (ici, une voiture de sport), et une section de formulaire sur la droite. Cette disposition améliore l'esthétique et l'expérience utilisateur.
 
 <br> 
-  # 2. Interface du Tableau de Bord (Dashboard). 
-
+# 2. Interface du Tableau de Bord (Dashboard). 
+ 
 Le tableau de bord est le centre de commande de l'application, offrant une vue d'ensemble rapide et des statistiques clés sur la gestion des véhicules. Il est conçu pour fournir des informations essentielles en un coup d'œil, permettant aux utilisateurs de surveiller l'état général de leur flotte.
 
 ![image](https://github.com/user-attachments/assets/e0061275-b0e0-4a38-9e3e-125ead6a74b7)
@@ -56,7 +56,7 @@ Navigation principale : En haut de la page, des liens de navigation permettent d
 L'interface du tableau de bord est organisée en une grille de cartes, chacune dédiée à une information ou une statistique spécifique. Cette disposition modulaire rend l'information facile à digérer et l'interface utilisateur claire et fonctionnelle.
 
 <br> 
- # 3. Interface de Gestion des Véhicules (Cars)
+# 3. Interface de Gestion des Véhicules (Cars).<br>
 
 L'interface "Cars" est dédiée à la gestion détaillée du parc automobile. Elle permet aux utilisateurs de visualiser, rechercher, filtrer et gérer les informations relatives à chaque véhicule.
 
